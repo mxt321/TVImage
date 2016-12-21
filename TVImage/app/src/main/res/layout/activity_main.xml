@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="1dp"
+    android:orientation="horizontal"
+    tools:context="net.bjyfkj.caa.UI.activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="13"
+                android:gravity="center"
+                android:text="三\n楼"
+                android:textColor="@color/colorAccent"
+                android:textSize="70px"
+                android:textStyle="normal|bold" />
+
+            <LinearLayout
+                android:id="@+id/d"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.allure.lbanners.LMBanners
+                            android:id="@+id/d1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:auto_play="true"
+                            app:canLoop="true"
+                            app:durtion="5000"
+                            app:horizontal_transitionEffect="accordion"
+                            app:indicator_position="bottom_mid"
+                            app:indicator_select="@drawable/page_indicator_select"
+                            app:indicator_unselect="@drawable/page_indicator_unselect"
+                            app:isVertical="false"
+                            app:scroll_duration="66666">
+
+                        </com.allure.lbanners.LMBanners>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/d1"
+                        android:layout_weight="3.5"
+                        android:gravity="center"
+                        android:text="XXXXX"
+                        android:textSize="50px" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.allure.lbanners.LMBanners
+                            android:id="@+id/d2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:auto_play="true"
+                            app:canLoop="true"
+                            app:durtion="5000"
+                            app:horizontal_transitionEffect="accordion"
+                            app:indicator_position="bottom_mid"
+                            app:indicator_select="@drawable/page_indicator_select"
+                            app:indicator_unselect="@drawable/page_indicator_unselect"
+                            app:isVertical="false"
+                            app:scroll_duration="66666">
+
+                        </com.allure.lbanners.LMBanners>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/d1"
+                        android:layout_weight="3.5"
+                        android:gravity="center"
+                        android:text="XXXXX"
+                        android:textSize="50px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.allure.lbanners.LMBanners
+                            android:id="@+id/d3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:auto_play="true"
+                            app:canLoop="true"
+                            app:durtion="5000"
+                            app:horizontal_transitionEffect="accordion"
+                            app:indicator_position="bottom_mid"
+                            app:indicator_select="@drawable/page_indicator_select"
+                            app:indicator_unselect="@drawable/page_indicator_unselect"
+                            app:isVertical="false"
+                            app:scroll_duration="66666">
+
+                        </com.allure.lbanners.LMBanners>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/d1"
+                        android:layout_weight="3.5"
+                        android:gravity="center"
+                        android:text="XXXXX"
+                        android:textSize="50px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.allure.lbanners.LMBanners
+                            android:id="@+id/d4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:auto_play="true"
+                            app:canLoop="true"
+                            app:durtion="5000"
+                            app:horizontal_transitionEffect="accordion"
+                            app:indicator_position="bottom_mid"
+                            app:indicator_select="@drawable/page_indicator_select"
+                            app:indicator_unselect="@drawable/page_indicator_unselect"
+                            app:isVertical="false"
+                            app:scroll_duration="66666">
+
+                        </com.allure.lbanners.LMBanners>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/d1"
+                        android:layout_weight="3.5"
+                        android:gravity="center"
+                        android:text="XXXXX"
+                        android:textSize="50px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.allure.lbanners.LMBanners
+                            android:id="@+id/d5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:auto_play="true"
+                            app:canLoop="true"
+                            app:durtion="5000"
+                            app:horizontal_transitionEffect="accordion"
+                            app:indicator_position="bottom_mid"
+                            app:indicator_select="@drawable/page_indicator_select"
+                            app:indicator_unselect="@drawable/page_indicator_unselect"
+                            app:isVertical="false"
+                            app:scroll_duration="66666">
+
+                        </com.allure.lbanners.LMBanners>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/d1"
+                        android:layout_weight="3.5"
+                        android:gravity="center"
+                        android:text="XXXXX"
+                        android:textSize="50px" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="13"
+                android:gravity="center"
+                android:text="二\n楼"
+                android:textColor="@color/colorAccent"
+                android:textSize="70px"
+                android:textStyle="normal|bold" />
+
+            <LinearLayout
+                android:id="@+id/c"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.allure.lbanners.LMBanners
+                            android:id="@+id/c1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:auto_play="true"
+                            app:canLoop="true"
+                            app:durtion="5000"
+                            app:horizontal_transitionEffect="accordion"
+                            app:indicator_position="bottom_mid"
+                            app:indicator_select="@drawable/page_indicator_select"
+                            app:indicator_unselect="@drawable/page_indicator_unselect"
+                            app:isVertical="false"
+                            app:scroll_duration="66666">
+
+                        </com.allure.lbanners.LMBanners>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/d1"
+                        android:layout_weight="3.5"
+                        android:gravity="center"
+                        android:text="XXXXX"
+                        android:textSize="50px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.allure.lbanners.LMBanners
+                            android:id="@+id/c2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:auto_play="true"
+                            app:canLoop="true"
+                            app:durtion="5000"
+                            app:horizontal_transitionEffect="accordion"
+                            app:indicator_position="bottom_mid"
+                            app:indicator_select="@drawable/page_indicator_select"
+                            app:indicator_unselect="@drawable/page_indicator_unselect"
+                            app:isVertical="false"
+                            app:scroll_duration="66666">
+
+                        </com.allure.lbanners.LMBanners>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/d1"
+                        android:layout_weight="3.5"
+                        android:gravity="center"
+                        android:text="XXXXX"
+                        android:textSize="50px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.allure.lbanners.LMBanners
+                            android:id="@+id/c3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:auto_play="true"
+                            app:canLoop="true"
+                            app:durtion="5000"
+                            app:horizontal_transitionEffect="accordion"
+                            app:indicator_position="bottom_mid"
+                            app:indicator_select="@drawable/page_indicator_select"
+                            app:indicator_unselect="@drawable/page_indicator_unselect"
+                            app:isVertical="false"
+                            app:scroll_duration="66666">
+
+                        </com.allure.lbanners.LMBanners>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/d1"
+                        android:layout_weight="3.5"
+                        android:gravity="center"
+                        android:text="XXXXX"
+                        android:textSize="50px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.allure.lbanners.LMBanners
+                            android:id="@+id/c4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:auto_play="true"
+                            app:canLoop="true"
+                            app:durtion="5000"
+                            app:horizontal_transitionEffect="accordion"
+                            app:indicator_position="bottom_mid"
+                            app:indicator_select="@drawable/page_indicator_select"
+                            app:indicator_unselect="@drawable/page_indicator_unselect"
+                            app:isVertical="false"
+                            app:scroll_duration="66666">
+
+                        </com.allure.lbanners.LMBanners>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/d1"
+                        android:layout_weight="3.5"
+                        android:gravity="center"
+                        android:text="XXXXX"
+                        android:textSize="50px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.allure.lbanners.LMBanners
+                            android:id="@+id/c5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:auto_play="true"
+                            app:canLoop="true"
+                            app:durtion="5000"
+                            app:horizontal_transitionEffect="accordion"
+                            app:indicator_position="bottom_mid"
+                            app:indicator_select="@drawable/page_indicator_select"
+                            app:indicator_unselect="@drawable/page_indicator_unselect"
+                            app:isVertical="false"
+                            app:scroll_duration="66666">
+
+                        </com.allure.lbanners.LMBanners>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/d1"
+                        android:layout_weight="3.5"
+                        android:gravity="center"
+                        android:text="XXXXX"
+                        android:textSize="50px" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="13"
+                android:gravity="center"
+                android:text="一\n楼"
+                android:textColor="@color/colorAccent"
+                android:textSize="70px"
+                android:textStyle="normal|bold" />
+
+            <LinearLayout
+                android:id="@+id/b"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.allure.lbanners.LMBanners
+                            android:id="@+id/b1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:auto_play="true"
+                            app:canLoop="true"
+                            app:durtion="5000"
+                            app:horizontal_transitionEffect="accordion"
+                            app:indicator_position="bottom_mid"
+                            app:indicator_select="@drawable/page_indicator_select"
+                            app:indicator_unselect="@drawable/page_indicator_unselect"
+                            app:isVertical="false"
+                            app:scroll_duration="66666">
+
+                        </com.allure.lbanners.LMBanners>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/d1"
+                        android:layout_weight="3.5"
+                        android:gravity="center"
+                        android:text="XXXXX"
+                        android:textSize="50px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.allure.lbanners.LMBanners
+                            android:id="@+id/b2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:auto_play="true"
+                            app:canLoop="true"
+                            app:durtion="5000"
+                            app:horizontal_transitionEffect="accordion"
+                            app:indicator_position="bottom_mid"
+                            app:indicator_select="@drawable/page_indicator_select"
+                            app:indicator_unselect="@drawable/page_indicator_unselect"
+                            app:isVertical="false"
+                            app:scroll_duration="66666">
+
+                        </com.allure.lbanners.LMBanners>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/d1"
+                        android:layout_weight="3.5"
+                        android:gravity="center"
+                        android:text="XXXXX"
+                        android:textSize="50px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.allure.lbanners.LMBanners
+                            android:id="@+id/b3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:auto_play="true"
+                            app:canLoop="true"
+                            app:durtion="5000"
+                            app:horizontal_transitionEffect="accordion"
+                            app:indicator_position="bottom_mid"
+                            app:indicator_select="@drawable/page_indicator_select"
+                            app:indicator_unselect="@drawable/page_indicator_unselect"
+                            app:isVertical="false"
+                            app:scroll_duration="66666">
+
+                        </com.allure.lbanners.LMBanners>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/d1"
+                        android:layout_weight="3.5"
+                        android:gravity="center"
+                        android:text="XXXXX"
+                        android:textSize="50px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.allure.lbanners.LMBanners
+                            android:id="@+id/b4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:auto_play="true"
+                            app:canLoop="true"
+                            app:durtion="5000"
+                            app:horizontal_transitionEffect="accordion"
+                            app:indicator_position="bottom_mid"
+                            app:indicator_select="@drawable/page_indicator_select"
+                            app:indicator_unselect="@drawable/page_indicator_unselect"
+                            app:isVertical="false"
+                            app:scroll_duration="66666">
+
+                        </com.allure.lbanners.LMBanners>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/d1"
+                        android:layout_weight="3.5"
+                        android:gravity="center"
+                        android:text="XXXXX"
+                        android:textSize="50px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.allure.lbanners.LMBanners
+                            android:id="@+id/b5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:auto_play="true"
+                            app:canLoop="true"
+                            app:durtion="5000"
+                            app:horizontal_transitionEffect="accordion"
+                            app:indicator_position="bottom_mid"
+                            app:indicator_select="@drawable/page_indicator_select"
+                            app:indicator_unselect="@drawable/page_indicator_unselect"
+                            app:isVertical="false"
+                            app:scroll_duration="66666">
+
+                        </com.allure.lbanners.LMBanners>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/d1"
+                        android:layout_weight="3.5"
+                        android:gravity="center"
+                        android:text="XXXXX"
+                        android:textSize="50px" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="13"
+                android:gravity="center"
+                android:text="负\n一\n层"
+                android:textColor="@color/colorAccent"
+                android:textSize="70px"
+                android:textStyle="normal|bold" />
+
+            <LinearLayout
+                android:id="@+id/a"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.allure.lbanners.LMBanners
+                            android:id="@+id/a1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:auto_play="true"
+                            app:canLoop="true"
+                            app:durtion="5000"
+                            app:horizontal_transitionEffect="accordion"
+                            app:indicator_position="bottom_mid"
+                            app:indicator_select="@drawable/page_indicator_select"
+                            app:indicator_unselect="@drawable/page_indicator_unselect"
+                            app:isVertical="false"
+                            app:scroll_duration="66666">
+
+                        </com.allure.lbanners.LMBanners>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/d1"
+                        android:layout_weight="3.5"
+                        android:gravity="center"
+                        android:text="XXXXX"
+                        android:textSize="50px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.allure.lbanners.LMBanners
+                            android:id="@+id/a2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:auto_play="true"
+                            app:canLoop="true"
+                            app:durtion="5000"
+                            app:horizontal_transitionEffect="accordion"
+                            app:indicator_position="bottom_mid"
+                            app:indicator_select="@drawable/page_indicator_select"
+                            app:indicator_unselect="@drawable/page_indicator_unselect"
+                            app:isVertical="false"
+                            app:scroll_duration="66666">
+
+                        </com.allure.lbanners.LMBanners>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/d1"
+                        android:layout_weight="3.5"
+                        android:gravity="center"
+                        android:text="XXXXX"
+                        android:textSize="50px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.allure.lbanners.LMBanners
+                            android:id="@+id/a3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:auto_play="true"
+                            app:canLoop="true"
+                            app:durtion="5000"
+                            app:horizontal_transitionEffect="accordion"
+                            app:indicator_position="bottom_mid"
+                            app:indicator_select="@drawable/page_indicator_select"
+                            app:indicator_unselect="@drawable/page_indicator_unselect"
+                            app:isVertical="false"
+                            app:scroll_duration="66666">
+
+                        </com.allure.lbanners.LMBanners>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/d1"
+                        android:layout_weight="3.5"
+                        android:gravity="center"
+                        android:text="XXXXX"
+                        android:textSize="50px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.allure.lbanners.LMBanners
+                            android:id="@+id/a4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:auto_play="true"
+                            app:canLoop="true"
+                            app:durtion="5000"
+                            app:horizontal_transitionEffect="accordion"
+                            app:indicator_position="bottom_mid"
+                            app:indicator_select="@drawable/page_indicator_select"
+                            app:indicator_unselect="@drawable/page_indicator_unselect"
+                            app:isVertical="false"
+                            app:scroll_duration="66666">
+
+                        </com.allure.lbanners.LMBanners>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/d1"
+                        android:layout_weight="3.5"
+                        android:gravity="center"
+                        android:text="XXXXX"
+                        android:textSize="50px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.allure.lbanners.LMBanners
+                            android:id="@+id/a5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:auto_play="true"
+                            app:canLoop="true"
+                            app:durtion="5000"
+                            app:horizontal_transitionEffect="accordion"
+                            app:indicator_position="bottom_mid"
+                            app:indicator_select="@drawable/page_indicator_select"
+                            app:indicator_unselect="@drawable/page_indicator_unselect"
+                            app:isVertical="false"
+                            app:scroll_duration="66666">
+
+                        </com.allure.lbanners.LMBanners>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/d1"
+                        android:layout_weight="3.5"
+                        android:gravity="center"
+                        android:text="XXXXX"
+                        android:textSize="50px" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
